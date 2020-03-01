@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:key="@string/preference_key"
+        android:title="News Order"
+        android:defaultValue="@string/settings_default"
+        android:entries="@array/news_order"
+        android:entryValues="@array/news_order"
+        android:summary="Choose how news are ordered"/>
+
+
+
+</PreferenceScreen>
