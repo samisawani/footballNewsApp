@@ -32,7 +32,7 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<ArrayList<StoryItem>> {
     private RecyclerView recyclerView;
     private RecyclerAdapter recyclerAdapter;
-    private static final String baseURL = "https://content.guardianapis.com/search?show-fields=all&page-size=20&q=Football&api-key=77700f73-2aea-43e5-b65b-ea726f74b1ea";
+    private static final String baseURL = "https://content.guardianapis.com/search?show-fields=all&page-size=20&q=Football&api-key=~~~~~~";//replace '~' characters with your own api key
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
